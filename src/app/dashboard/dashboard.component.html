@@ -1,0 +1,71 @@
+<div class="flex flex-col">
+    <!-- Navigation Container -->
+    <div class="inline-flex w-full my-5">
+      <!-- Search -->
+      <div class="bg-card-background rounded-md">
+        <i class="fa-solid fa-magnifying-glass text-body-text pl-4"></i>
+        <input type="text" class="border-none bg-transparent outline-none text-heading-text w-[275px] ml-2 py-2 px-2 text-xs" placeholder="Search for your favorite destination">
+        <button class="px-5 py-3 text-background bg-primary text-sm rounded-md">Search</button>
+      </div>
+      <span class="mx-10"></span>
+      <!-- Bell Notification -->
+      <div class="bell bg-card-background py-2 px-4 rounded-full w-fit before:content-[''] before:absolute before:w-3 before:h-3 before:bg-secondary before:rounded-full before:ml-4 before:mt-[-8px] hover:cursor-pointer">
+        <i class="fa-solid fa-bell text-body-text text-sm"></i>
+      </div>
+    </div>
+    <!-- Welcome Message -->
+    <div class="mt-5">
+      <p class="text-4xl text-heading-text">Hello Anni!</p>
+      <p class="text-body-text mt-2">Welcome back and explore the world</p>
+    </div>
+    <!-- Easy Destination -->
+    <!-- Fix Something here, bug on zooming in, card is not properly implemented -->
+    <div class="h-1/3 mt-5">
+      <div class="inline-flex w-full mb-4">
+        <p class="text-heading-text text-2xl">Easy Visa Destinations</p>
+        <span class="m-auto"></span>
+        <a href="" class="text-primary text-sm place-self-center">View All</a>
+      </div>
+      <div class="inline-flex w-full">
+        <!-- Cards -->
+        <div>
+          <app-image-card></app-image-card>
+        </div>
+        <span class="m-auto"></span>
+        <div>
+          <app-image-card></app-image-card>
+        </div>
+        <span class="m-auto"></span>
+        <div>
+          <app-image-card></app-image-card>
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <div class="inline-flex w-full my-5">
+        <a href="" class="text-heading-text text-2xl">Most Popular</a>
+        <a href="" class="text-body-text text-2xl mx-5">Special Offers</a>
+        <a href="" class="text-body-text text-2xl">Near Me</a>
+      </div>
+      <div class="grid grid-cols-3 grid-rows-2">
+        <div>
+          <app-horizontal-card></app-horizontal-card>
+        </div>
+        <div>
+          <app-horizontal-card></app-horizontal-card>
+        </div>
+        <div>
+          <app-horizontal-card></app-horizontal-card>
+        </div>
+        <div>
+          <app-horizontal-card></app-horizontal-card>
+        </div>
+        <div>
+          <app-horizontal-card></app-horizontal-card>
+        </div>
+        <div>
+          <app-horizontal-card></app-horizontal-card>
+        </div>
+      </div>
+    </div>
+</div>
