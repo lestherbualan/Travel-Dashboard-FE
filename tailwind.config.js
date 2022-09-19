@@ -13,7 +13,7 @@ module.exports = {
         'heading-text': '#D0D4E7',
         'body-text': '#626577'
       }
-    },
+    }
   },
   plugins: [],
 }
