@@ -3,7 +3,7 @@
         <img 
             src="{{url}}"
             alt=""
-            class="h-48 w-full object-cover rounded-3xl max-w-[251px]">
+            class="h-48 w-full object-cover rounded-3xl ">
         <!-- card information -->
         <div class="">
             <div class="py-3 px-2">
@@ -14,9 +14,9 @@
         </div>
     </div>
     <span class="border-t border-heading-text"></span>
-    <div class="bg-primary flex-grow rounded-b-3xl inline-flex px-4">
-        <p class="text-background text-sm place-self-center">Starting at</p>
+    <div class="bg-primary flex-grow rounded-b-3xl inline-flex px-4" [ngClass]="{'bg-primary': active}">
+        <p class="text-body-text text-sm place-self-center" [ngClass]="{'text-background': active}">Starting at</p>
         <span class="m-auto"></span>
-        <p class="place-self-center text-lg">${{price}}</p>
+        <p class="place-self-center text-lg text-heading-text" [ngClass]="{'text-background': active}">${{price}}</p>
     </div>
 </div>
