@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,4 +8,7 @@
 /* Hide Scrollbar */
 ::-webkit-scrollbar {
     width: 0;
+}
+.thin{
+    font-family: 'Helvetica 45 Light', sans-serif;
 }

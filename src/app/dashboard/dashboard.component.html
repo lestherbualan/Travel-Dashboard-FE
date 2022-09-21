@@ -2,21 +2,23 @@
     <!-- Navigation Container -->
     <div class="inline-flex w-full my-5">
       <!-- Search -->
-      <div class="bg-card-background rounded-md">
-        <i class="fa-solid fa-magnifying-glass text-body-text pl-4"></i>
-        <input type="text" class="border-none bg-transparent outline-none text-heading-text w-[275px] ml-2 py-2 px-2 text-xs" placeholder="Search for your favorite destination">
-        <button class="px-5 py-3 text-background bg-primary text-sm rounded-md">Search</button>
+      <div class="bg-card-background rounded-xl">
+        <i class="fa-solid fa-magnifying-glass text-body-text pl-6"></i>
+        <input type="text" class="border-none bg-transparent outline-none text-heading-text w-[275px] ml-2 py-4 px-4 text-xs thin" placeholder="Search for your favorite destination">
+        <button class="px-5 py-4 text-background bg-primary text-sm rounded-xl">Search</button>
       </div>
       <span class="mx-10"></span>
       <!-- Bell Notification -->
-      <div class="bell bg-card-background py-2 px-4 rounded-full w-fit before:content-[''] before:absolute before:w-3 before:h-3 before:bg-secondary before:rounded-full before:ml-4 before:mt-[-8px] hover:cursor-pointer">
-        <i class="fa-solid fa-bell text-body-text text-sm"></i>
-      </div>
+      <button class="flex bg-card-background py-2 px-4 rounded-full w-fit before:content-[''] before:absolute before:w-3 before:h-3 before:bg-secondary before:rounded-full before:ml-6 before:mt-[-8px] hover:cursor-pointer">
+        <span class="material-symbols-outlined place-self-center text-2xl text-body-text">
+          notifications
+        </span>
+      </button>
     </div>
     <!-- Welcome Message -->
     <div class="mt-5">
       <p class="text-4xl text-heading-text">Hello Anni!</p>
-      <p class="text-body-text mt-2">Welcome back and explore the world</p>
+      <p class="text-body-text mt-2 thin">Welcome back and explore the world</p>
     </div>
     <!-- Easy Destination -->
     <!-- Fix Something here, bug on zooming in, card is not properly implemented -->
@@ -49,8 +51,8 @@
     <div class="">
       <div class="inline-flex w-full my-5">
         <a href="" class="text-heading-text text-2xl">Most Popular</a>
-        <a href="" class="text-body-text text-2xl mx-5">Special Offers</a>
-        <a href="" class="text-body-text text-2xl">Near Me</a>
+        <a href="" class="text-body-text text-2xl mx-10 thin">Special Offers</a>
+        <a href="" class="text-body-text text-2xl thin">Near Me</a>
       </div>
       <div class="flex flex-wrap gap-2 w-full">
         <div class="flex-grow">

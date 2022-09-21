@@ -1,9 +1,11 @@
-<div class="rounded-3xl bg-card-background flex flex-col h-80 w-full">
+<div class="rounded-3xl bg-card-background flex flex-col h-80 w-[100%]">
     <div class="p-2">
-        <img 
+        <div class="w-full">
+            <img 
             src="{{url}}"
             alt=""
-            class="h-48 w-full object-cover rounded-3xl ">
+            class="h-48 object-cover rounded-3xl"> 
+        </div>
         <!-- card information -->
         <div class="">
             <div class="py-3 px-2">
@@ -15,7 +17,7 @@
     </div>
     <span class="border-t border-heading-text"></span>
     <div class="bg-primary flex-grow rounded-b-3xl inline-flex px-4" [ngClass]="{'bg-primary': active}">
-        <p class="text-body-text text-sm place-self-center" [ngClass]="{'text-background': active}">Starting at</p>
+        <p class="text-body-text text-sm place-self-center thin" [ngClass]="{'text-background': active}">Starting at</p>
         <span class="m-auto"></span>
         <p class="place-self-center text-lg text-heading-text" [ngClass]="{'text-background': active}">${{price}}</p>
     </div>
