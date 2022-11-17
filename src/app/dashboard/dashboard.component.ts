@@ -13,7 +13,7 @@ export class DashboardComponent implements OnInit {
   price1 = 19000;
 
   image2 = "https://images.unsplash.com/photo-1590077211339-724573dc4121?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&q=80";
-  name2 = "Mountain Province";
+  name2 = "Mountain Provincesssssssssssssssssss";
   price2 = 15000;
 
   image3 = "https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&q=80";
