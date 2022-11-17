@@ -9,6 +9,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { SideBoardComponent } from './side-board/side-board.component';
 import { BookingCardComponent } from './components/booking-card/booking-card.component';
 
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
